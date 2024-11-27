@@ -114,7 +114,9 @@ body {
 @media (max-width: 700px) {
     .grid-content {
         height: 100vh;
+        gap: 1vh;
         grid-template-columns: 100%;
+        display: block;
     }
 
     .navigation li {
@@ -129,23 +131,29 @@ body {
     }
 
     .content-text h1 {
-        font-size: 5vw;
+        font-size: 7vw;
+        margin-top: 40px;
     }
 
     .content-text a {
-        font-size: 2.8vw;
+        font-size: 5vw;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 30px;
     }
 
     .img-kolonka{
-        height: 85%;
+        height: 25vh;
+        width: 30vh;
     }
 
     .content-img{
-        height: 70%;
+        height: 30%;
+        margin-bottom: 10px;
     }
 
     .navigation li a{
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     .parallax-content{
