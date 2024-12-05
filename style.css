@@ -7,7 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-color: antiquewhite;
+    background-color: rgb(119, 119, 119);
 }
 
 .parallax {
@@ -73,9 +73,9 @@ body {
     margin: 0;
     display: grid;
     grid-template-rows: 20% 80%;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: left;
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -101,7 +101,7 @@ body {
 .content-img {
     display: flex;
     justify-content: center;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.4);
     align-items: center;
     border-radius: 20px;
 }
@@ -110,6 +110,74 @@ body {
     width: 90%;
     height: 90%;
 }
+
+.grid-image{
+    display: grid;
+    margin-left: 10%;
+    margin-right: 15%;
+    height: 400vh;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    width: 80%;
+    grid-template-columns: 40% 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    opacity: 0;
+    transform: translateY(20px); /* Сдвиг вниз */
+    transition: opacity 0.6s ease, transform 0.6s;
+}
+
+.grid-image.visible{
+    opacity: 1;
+    transform: translateY(60px); /* Сдвиг вниз */
+    transition: opacity 2s ease, transform 0.6s;
+}
+
+.img-team{
+    width: 70%;
+    margin: 50px;
+}
+
+
+.text-team{
+    margin-top: 31%;
+    font-size: 38px;
+    color: white;
+}
+
+
+.order-team-text{
+    display: flex;
+    font-size: 50px;
+    margin-top: 2%;
+    margin-right: 30%;
+    margin-left: 35%;
+    color: white;
+}
+
+.img-logo{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    display: grid;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 10%;
+    margin-right: 15%;
+    width: 80%;
+    grid-template-columns: 40% 50%;
+}
+
+.img-logo a{
+    margin-top: 37%;
+    font-size: 38px;
+    color: white;
+}
+
+.img-logo img{
+    width: 100%;
+    margin: 50px;
+}
+
 
 @media (max-width: 700px) {
     .grid-content {
@@ -140,7 +208,6 @@ body {
         margin-top: 40px;
         margin-bottom: 20px;
         margin-left: 25px;
-    
     }
 
     .img-kolonka{
@@ -159,5 +226,56 @@ body {
 
     .parallax-content{
         font-size: 4vw;
+    }
+
+    .img-team{
+        width: 90%;
+        margin: 50px;
+    }
+    
+    .grid-image{
+        display: grid;
+        margin-left:0 ;
+        margin-right: 0;
+        height: 200vh;
+        width: 95%;
+        grid-template-columns: 30% 70%;
+        margin: 0 auto;
+    }
+    
+    .text-team{
+        margin-top: 31%;
+        margin-right: 4%;
+        font-size: 16px;
+        color: white;
+        margin-left: 60px;
+    }
+    .order-team-text{
+        display: flex;
+        font-size: 30px;
+        margin-top: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        color: white;
+    }
+
+    .img-logo{
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 30px;
+        display: grid;
+        margin: 0 auto;
+        height: 25vh;
+        width: 95%;
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+        grid-template-columns: 30% 70%;
+    }
+    
+
+    .img-logo a{
+        margin-top: 12%;
+        font-size: 16px;
+        color: white;
+        margin-left: 60px;
     }
 }
