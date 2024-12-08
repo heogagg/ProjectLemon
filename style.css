@@ -394,7 +394,10 @@ body {
         gap: 5vh;
     }
 
-    
+    .grid-content_5 {
+        grid-template-columns: 45% 55%;
+        gap: 5vh;
+    }
 
     .navigation li {
         margin: 20px 50px;
@@ -477,6 +480,11 @@ body {
         gap: 5vh;
     }
 
+    .grid-content_5 {
+        grid-template-columns: 45% 55%;
+        gap: 5vh;
+    }
+
     .navigation li {
         margin: 20px 50px;
         
@@ -551,6 +559,21 @@ body {
     .grid_content_2{
         grid-template-rows: 45% 55%;
         height: 40vh;
+    }
+
+    .grid-content_5 {
+        grid-template-columns: 45% 55%;
+        gap: 5vh;
+        height: 30vh;
+        margin-top: 15vh;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .grid-content_5 .digital_name a{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .navigation {
@@ -640,10 +663,10 @@ body {
     }
 
     .grid-content_5 {
-        display: grid;
-        margin: 5vh 5%;
-        height: 50vh;
-        margin-bottom: 40vh;
+        grid-template-columns: 45% 60%;
+        gap: 1vh;
+        height: 23vh;
+        width: 90%;
     }
 
     body {

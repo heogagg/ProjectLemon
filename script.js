@@ -1,5 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const fadeElements = document.querySelectorAll('.fade-in');
+    const videos = document.querySelectorAll('video');
 
     function checkVisibility() {
         const triggerBottom = window.innerHeight / 6 * 3; // Позиция триггера
