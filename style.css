@@ -429,6 +429,7 @@ body {
 
     .text-team a {
         font-size: 1.5vw;
+        
     }
 
     .img-logo img{
@@ -652,6 +653,7 @@ body {
     .grid_content_2{
         grid-template-rows: 45% 55%;
         height: 40vh;
+        width: 100%;
     }
 
     .navigation {
@@ -716,10 +718,14 @@ body {
 
     .img-team img {
         width: 15vw;
+        scroll-snap-align: center; /* Элемент центрируется при прокрутке */
+        width: 100%;
     }
 
     .text-team a {
         font-size: 2vw;
+        scroll-snap-align: center; /* Элемент центрируется при прокрутке */
+        width: 100%;
     }
 
     .img-logo img{
@@ -735,6 +741,12 @@ body {
         min-height: 50%;
         top: 20px;
     }
+
+    .grid_content_2{
+        scroll-snap-type: x mandatory;
+        overflow-x: auto;
+    }
+
 }
 
 /* 2K мониторы (свыше 1920px) */
