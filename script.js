@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const fadeElements = document.querySelectorAll('.grid-image');
+    const fadeElements = document.querySelectorAll('.fade-in');
 
     function checkVisibility() {
-        const triggerBottom = window.innerHeight / 5 * 4; // Позиция триггера
+        const triggerBottom = window.innerHeight / 6 * 3; // Позиция триггера
 
         fadeElements.forEach(element => {
             const box = element.getBoundingClientRect();

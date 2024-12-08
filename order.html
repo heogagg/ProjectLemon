@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="icon.png">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>Lemon</title>
 </head>
 <body>
-<script src="script.js"></script>
 <div class="parallax">
+    <video autoplay muted id="myVideo">
+        <source src="kolonka3.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="overlay_1"></div>
     <div class="parallax-content">
-        <h1>Добро пожаловать в команду Lemon</h1>
+        <h1>Добро пожаловать <br>в команду Lemon</h1>
     </div>
 </div>
 
@@ -20,19 +28,42 @@
         <li><a href="index.html">Устройство</a></li>
         <li><a href="order.html">О нас</a></li>
     </ul>
-    <div class="img-logo"><tr><th><img src="logo.png"></th><th><a>Название нашей команды - Lemon.<br>Мы занимаемся разработкой настравиваемого хаба, кторый может подключатся к системе умного дома</a></th></tr></div>
-    <a class="order-team-text">Состав команды:</a>
-
-    <div class="grid-image">
-            <tr class="fade-in"><th><img src="meshkov.png" class="img-team"></th><th><a class="text-team">Мешков Даниил Михайлович<br>Техник</a></th></tr>
-            <tr class="fade-in"><th><img src="kokorin.png" class="img-team"></th><th><a class="text-team">Кокорин Егор Евгеньевич<br>Лидер, Техник</a></th></tr>
-            <tr class="fade-in"><th><img src="german.png" class="img-team"></th><th><a class="text-team">Колом Герман Романович<br>Подбор компонентов</a></th></tr>
-            <tr class="fade-in"><th><img src="mihaylova.png" class="img-team"></th><th><a class="text-team">Михайлова Анна Витальевна<br>Подбор компонентов</a></th></tr>
-            <tr class="fade-in"><th><img src="nizar.png" class="img-team"></th><th><a class="text-team">Шеддади Низар Рашидович<br>3D-художник, Спикер</a></th></tr>
-            <tr class="fade-in"><th><img src="ilya.png" class="img-team"></th><th><a class="text-team">Васильев Илья Антонович<br>Веб-программист(Дизайнер)</a></th></tr>
-            <tr class="fade-in"><th><img src="egor.png" class="img-team"></th><th><a class="text-team">Базанов Егор Владимирович<br>Веб-программист(Кодер)</a></th></tr>
-    </div>
 </div>
-
+    <div class="fade-in">
+        <div class="ruk_h1" style="margin-top: 10vh;"><a>Состав команды</a></div>
+    <div class="grid_content_2">
+        <div class="img-team"><img src="meshkov.png">
+            <img src="kokorin.png">
+            <img src="german.png">
+            <img src="mihaylova.png">
+            <img src="nizar.png">
+            <img src="ilya.png">
+            <img src="egor.png"></div>
+        <div class="text-team"><a>Мешков Даниил Михайлович<br>Техник</a>
+            <a>Кокорин Егор Евгеньевич<br>Лидер, Техник</a>
+            <a>Колом Герман Романович<br>Сборщик спермы, Спикер</a>
+            <a>Михайлова Анна Витальевна<br>Сборщик</a>
+            <a>Шеддади Низар Рашидович<br>3D-художник</a>
+            <a>Васильев Илья Антонович<br>Веб-программист</a>
+            <a>Базанов Егор Владимирович<br>Веб-программист</a></div>
+    </div>
+    </div>
+    <div class="fade-in">
+    <div class="ruk_h1"><a>Руководитель команды</a></div>
+    <div class="grid-content_3" style="margin-bottom: 10vh;">
+        <div class="img-team_2"><img src="kruch.png"></div>
+        <div class="text-team_2"><a class="ruk_text">Кручинина Ольга Анатольевна</a></div>
+    </div>
+    </div>
+    <div class="fade-in">
+        <div class="grid-content" style="grid-template-columns: 40% 60% ; width: 94%; margin: 0; justify-content: center; gap: 0;  margin-bottom: 50vh;">
+                <div class="img-logo"><img src="logo2.png"></div>
+            <div class="content-text" style="margin: 0; justify-content: center; align-items: center;top: 0;">
+                <a class="digital_name">Кратко о нас</a>
+                <a class="digital_text" style="width: 80%; text-align: center; justify-content: center; align-items: center; margin: 0 auto;">Наша команда «Lemon» занимается разработкой устройства для системы «Умный дом».</a>
+                <div class="bg-digital-text"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

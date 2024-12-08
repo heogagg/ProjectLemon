@@ -6,12 +6,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="icon.png">
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>Lemon</title>
 </head>
 <body>
 <div class="parallax">
+    <video autoplay muted loop id="myVideo">
+        <source src="kolonka4.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="overlay_1"></div>
     <div class="parallax-content">
-        <h1>Добро пожаловать в команду Lemon</h1>
+        <h1>Добро пожаловать <br>в команду Lemon</h1>
     </div>
 </div>
 
@@ -20,17 +28,71 @@
         <li><a href="index.html">Устройство</a></li>
         <li><a href="order.html">О нас</a></li>
     </ul>
-
-    <div class="grid-content">
-            <div class="content-img"> 
-                <img src="kolonka.png" class="img-kolonka">
+</div>
+    <div class="fade-in">
+        <div class="grid-content">
+            <div class="content-text">
+                <a class="digital_name">Святогор</a>
+                <a class="digital_text">Программируемое устройство, настраиваемое под себя, а также адаптируемое под систему «Умный дом».</a>
+                <div class="bg-digital-text"></div>
             </div>
-        <div class="content-text">
-            <h1>Название устройства</h1>
-            <a>Наше устройсво называеться ......., оно предназначено для того, чтобы программировать ёё под себя и настраивать её с системой умного дома</a>
+            <div class="video_kolonka">
+                <div class="bg-video_kolonka"></div>
+                <video id="myVideo2" muted autoplay loop>
+                    <source src="kolonka.mp4" type="video/mp4">
+                </video>
+                <div class="overlay_3"></div>
+            </div>
         </div>
     </div>
-</div>
-
+    <div class="fade-in">
+        <div class="text_komp"><a>Состовляющие устройства</a></div>
+        <div class="grid-content">
+            <div class="content-text">
+                <a class="digital_name">Микроконтроллер ESP8266</a>
+                <a class="digital_text">С помощью данного микроконтроллера будет реализовано подключение по радио-модулю и сети Wi-Fi.</a>
+                <div class="bg-digital-text"></div>
+            </div>
+            <div class="video_kolonka">
+                <div class="bg-video_kolonka"></div>
+                <video id="myVideo2" muted autoplay loop>
+                    <source src="kolonka2.mp4" type="video/mp4">
+                </video>
+                <div class="overlay_3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="fade-in">
+        <div class="grid-content">
+            <div class="content-text">
+                <a class="digital_name">Модуль радиосигнала RFM95</a>
+                <a class="digital_text">С помощью данного модуля будет реализовано управление светом (включение/выключение).</a>
+                <div class="bg-digital-text"></div>
+            </div>
+            <div class="video_kolonka">
+                <div class="bg-video_kolonka"></div>
+                <video id="myVideo2" muted autoplay loop>
+                    <source src="kolonka3.mp4" type="video/mp4">
+                </video>
+                <div class="overlay_3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="fade-in">
+        <div class="grid-content_5" style="height: 2vh;">
+            <div class="content-text">
+                <a class="digital_name" style="width: 90%; justify-content: center; align-items: center; text-align: center;">Датчик температуры и влажности DHT22 </a>
+                <a class="digital_text">С помощью данного модуля будет фиксироваться температура в помещении, а также влажность в ней.</a>
+                <div class="bg-digital-text"></div>
+            </div>
+            <div class="video_kolonka">
+                <div class="bg-video_kolonka"></div>
+                <video id="myVideo2" muted autoplay loop>
+                    <source src="kolonka.mp4" type="video/mp4">
+                </video>
+                <div class="overlay_3"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
