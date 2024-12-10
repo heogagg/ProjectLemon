@@ -985,11 +985,12 @@ body {
     }
 
     .text-team_2 a {
+        margin-top: 5vh;
         font-size: 2vw;
     }
 
     .img-team_2 img {
-        width: 22vw;
+        width: 20vw;
     } 
 
     #myVideo3 {
